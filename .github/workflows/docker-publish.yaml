@@ -2,7 +2,7 @@ name: Create and publish a Docker image
 
 on:
   push:
-    branches: ['hugo']
+    branches: ["main"]
 
 env:
   REGISTRY: ghcr.io
@@ -10,7 +10,7 @@ env:
 
 jobs:
   build-and-push-image:
-    if: github.repository == 'jackyzha0/quartz'
+    if: github.repository == 'MyDAIDAI/knowledge-blog'
     runs-on: ubuntu-latest
     permissions:
       contents: read
