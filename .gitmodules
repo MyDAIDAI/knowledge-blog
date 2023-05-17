@@ -1,0 +1,3 @@
+[submodule "content/base"]
+	path = content/base
+	url = git@github.com:MyDAIDAI/knowledge-base.git
