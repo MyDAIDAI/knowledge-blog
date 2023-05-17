@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"type":"file","file":"40-Study/React/React理念.md","id":"e74151bf6863df9b","x":1020,"y":200,"width":380,"height":440},
+		{"type":"link","url":"https://react.iamkasong.com/#%E5%AF%BC%E5%AD%A6%E8%A7%86%E9%A2%91","id":"7405bc076c6ffcc7","x":1,"y":200,"width":519,"height":600},
+		{"type":"text","text":"React理念","id":"31191bfd527b3b0e","x":640,"y":260,"width":250,"height":60},
+		{"id":"d5831e3dbead4d4f","x":1640,"y":200,"width":400,"height":260,"type":"file","file":"40-Study/React/CPU瓶颈.md"},
+		{"id":"06a2e13b099ef782","x":1640,"y":600,"width":400,"height":400,"type":"file","file":"40-Study/React/网络瓶颈.md"}
+	],
+	"edges":[
+		{"id":"7ced038a16cbae75","fromNode":"7405bc076c6ffcc7","fromSide":"right","toNode":"31191bfd527b3b0e","toSide":"left"},
+		{"id":"721bad9fbfac9303","fromNode":"31191bfd527b3b0e","fromSide":"right","toNode":"e74151bf6863df9b","toSide":"left"},
+		{"id":"22ee01a7b7e648b6","fromNode":"e74151bf6863df9b","fromSide":"right","toNode":"d5831e3dbead4d4f","toSide":"left"},
+		{"id":"5868bac14203c0b5","fromNode":"e74151bf6863df9b","fromSide":"right","toNode":"06a2e13b099ef782","toSide":"left"}
+	]
+}
