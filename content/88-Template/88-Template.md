@@ -15,7 +15,6 @@ obsidianUIMode: preview
 	- [[示例库内置的插件列表]]
 	- [[button]]
 	- [[Calendar2021-2022]]
-	- [[chinese_stopwords]]
 	- **[[EnablepluginList]]**
 	- [[FastStart-GenerateListOfInstalledPlugins]]
 	- [[FastStart-Plugins-LongDelay]]
