@@ -1,4 +1,4 @@
-baseURL = "dpdaidai.github.io"
+baseURL = "https://mydaidai.github.io"
 languageCode = "zh-cn"
 relativeURLs = false
 disablePathToLower = true
