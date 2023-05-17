@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"b37e2794512cdbb1","x":-140,"y":400,"width":1400,"height":600,"color":"2","type":"group","label":"开发完成/待冒烟"},
+		{"type":"group","id":"536412ec511958e3","x":-140,"y":-360,"width":1400,"height":500,"color":"#625b5b","label":"待做"},
+		{"type":"link","url":"https://jira.xiguacity.cn/browse/RD_DELIVERY-11917","id":"6be8e98c483ee419","x":-1120,"y":-320,"width":860,"height":840},
+		{"type":"link","url":"https://jira.xiguacity.cn/secure/RapidBoard.jspa?rapidView=249&selectedIssue=RD_DELIVERY-12024&quickFilter=2000","id":"c72abe660f48a4be","x":-940,"y":-1520,"width":1540,"height":920},
+		{"type":"file","file":"50-Work/小书童/群发.md","id":"3876bcbf153d2fe3","x":-120,"y":-320,"width":400,"height":200},
+		{"type":"file","file":"50-Work/拨打电话.md","id":"c48a2790e623388f","x":320,"y":-320,"width":400,"height":260},
+		{"type":"file","file":"50-Work/通时通次.md","id":"3759e780aafab646","x":-120,"y":440,"width":400,"height":400}
+	],
+	"edges":[
+		{"id":"c4c845699311ff48","fromNode":"3759e780aafab646","fromSide":"left","toNode":"6be8e98c483ee419","toSide":"right"},
+		{"id":"125b98e217d89b45","fromNode":"536412ec511958e3","fromSide":"bottom","toNode":"b37e2794512cdbb1","toSide":"top"}
+	]
+}

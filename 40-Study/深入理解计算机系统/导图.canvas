@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"36c934a4071c3ca6","x":-580,"y":-420,"width":734,"height":680,"type":"file","file":"10-Book/深入理解计算机系统.pdf"},
+		{"id":"8eff06e20aba4004","x":268,"y":-420,"width":552,"height":660,"type":"file","file":"10-Book/深入理解计算机系统-英文原版.pdf"},
+		{"id":"77b9315b11b35aca","x":980,"y":-420,"width":429,"height":225,"type":"text","text":"˜. Correspondingly, p ˆ q equals 1 when either p = 1 and q = 0, or p = 0 and q = 1. Claude Shannon, who would later found the field of information theory, first made the connection between Boolean algebra and digital logic. In his 1937 master’s thesis, he showed that Boolean algebra could be applied to the design and analysis of networks of electromechanical relays. Although computer technology has advanced considerably since that time, Boolean algebra still plays a central role in digital systems design and analy"}
+	],
+	"edges":[
+		{"id":"3ab945cb7cf7eecc","fromNode":"8eff06e20aba4004","fromSide":"right","toNode":"77b9315b11b35aca","toSide":"left"}
+	]
+}
