@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - hugo
+      - main
 
 jobs:
   deploy:
@@ -14,7 +14,7 @@ jobs:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Build Link Index
-        uses: jackyzha0/hugo-obsidian@v2.20
+        uses: peaceiris/actions-hugo@v2
         with:
           index: true
           input: content
@@ -36,4 +36,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: master  # deploying branch
-          cname: quartz.jzhao.xyz
+          cname: dpdaidai.github.io
